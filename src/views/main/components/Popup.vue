@@ -28,7 +28,7 @@ interface CartItem {
   imgSrc: string;
 }
 
-const props = defineProps<{
+defineProps<{
   tableNum: number;
   cartItems: Record<string, CartItem>;
   totalPrice: number;
